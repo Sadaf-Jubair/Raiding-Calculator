@@ -1,7 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="Assets/index-stylesheet.css">
+    <script src="Assets/index-javascript.js"></script>
     <title>Tribals raid resource calculator</title>
 </head>
+<body>
+    <div id="main-container">
+        <div class="half">
+            <label for="hpinput">HP of the structure</label>
+            <input type="number" name="hpinput" id="hpinput">
+            <label for="ammoinput">Ammo/Weapon</label>
+            <select name="ammoinput" id="ammoinput">
+                <option value="30">Musket(Musketammo)</option>
+                <option value="25">Pistol(Pistolammo)</option>
+                <option value="12">IronSpear</option>
+                <span id="calcbtn" onclick="">Calculate</span>
+            </select>
+        </div>
+        <div class="half">
+            <h1>Players Needed:</h1>
+            <span id="neededplayer"></span>
+            <h1>Ammos/Hits needed</h1>
+            <span id="neededammo"></span>
+        </div>
+    </div>
+</body>
 </html>

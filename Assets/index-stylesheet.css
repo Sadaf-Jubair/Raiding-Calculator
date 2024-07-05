@@ -1,0 +1,13 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+#main-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+div.half {
+    height: inherit;
+    width: 50%;
+}
