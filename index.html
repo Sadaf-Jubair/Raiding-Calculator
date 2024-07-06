@@ -9,7 +9,7 @@
 </head>
 <body>
     <div id="main-container">
-        <div class="half">
+        <div class="left half">
             <label for="hpinput">HP of the structure</label>
             <input type="number" name="hpinput" id="hpinput">
             <label for="ammoinput">Ammo/Weapon</label>
@@ -18,9 +18,9 @@
                 <option value="25">Pistol(Pistolammo)</option>
                 <option value="12">IronSpear</option>
             </select>
-            <span id="calcbtn" onclick="">Calculate</span>
+            <span id="calcbtn" onclick="finalCalc()">Calculate</span>
         </div>
-        <div class="half">
+        <div class="right half">
             <h1>Players Needed:</h1>
             <span id="neededplayer"></span>
             <h1>Ammos/Hits needed</h1>
